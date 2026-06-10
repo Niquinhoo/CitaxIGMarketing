@@ -61,7 +61,7 @@ export function DashboardMock({ appointments = [], businessName = "Citax Peluque
       </div>
 
       {/* Slots / Appointments list */}
-      <div className="p-5 flex-grow overflow-y-auto space-y-3">
+      <div className="p-5 flex-grow overflow-hidden space-y-3">
         <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1 select-none flex items-center gap-1.5">
           <Calendar className="w-3.5 h-3.5 text-primary" /> Turnos de Hoy
         </h4>
